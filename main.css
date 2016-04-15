@@ -1,0 +1,88 @@
+/* Inserta tu CSS aqui */
+#container
+{
+	background-color:#3CB371;
+	margin:0;
+	padding:10px;
+	height:500px;
+	width: 900px;
+	position:absolute;
+	
+}
+.content
+{
+	border: 1px solid white;
+	width: 880px;
+	height: 480px;
+	margin:10px;
+	padding:0px;
+	position:relative;
+
+
+}
+
+.izquierda
+{
+	border:1px solid white;
+	width: 150px;
+	height:200px;
+	position:absolute;
+	top:140px;
+	left:0;
+	
+}
+.derecha
+{
+	border:1px solid white;
+	width: 150px;
+	height:200px;
+	position:absolute;
+	top:140px;
+	right:0;				<div class="izquierda"></div>
+
+	
+
+}
+.centro
+{
+	border:1px solid white;
+	border-radius:100%;
+	width: 200px;
+	height: 200px;
+	position:absolute;
+	left:340px;
+	top:140px;
+}
+
+/*ahora ubico las imagenes*/
+
+.ball_izquierda
+{
+	position:absolute;
+	top:50px;
+	width: 5px;
+	height: 5px;
+	top:150px;
+	left:140px;
+	
+	
+}
+
+.ball_centro
+{
+
+	position:absolute;
+	top:50px;
+	left:470px;
+	
+}
+
+.ball_derecha
+{
+	width:5px;
+	height: 5px;
+	position:absolute;
+	bottom:150px;
+	right:180px;
+	
+}
